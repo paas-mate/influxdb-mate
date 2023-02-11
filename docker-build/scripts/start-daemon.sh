@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mkdir -p $INFLUXDB_HOME/logs
-nohup $INFLUXDB_HOME/mate/influxdb-mate >>$INFLUXDB_HOME/logs/influxdb_mate.stdout.log 2>>$INFLUXDB_HOME/logs/influxdb_mate.stderr.log &
+mkdir -p $INFLUX_HOME/logs
+nohup $INFLUX_HOME/mate/influxdb-mate >>$INFLUX_HOME/logs/influxdb_mate.stdout.log 2>>$INFLUX_HOME/logs/influxdb_mate.stderr.log &
